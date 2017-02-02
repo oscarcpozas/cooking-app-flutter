@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/http.dart' as http;
-import 'package:example_app_flutter/data/recipe_data.dart';
+import 'package:example_app_flutter/app/data/recipe_data.dart';
 
 class RemoteRecipeRepository implements RecipeRepository {
 
-  static const _apiKEY = ""; // Paste here your API Key
+  static const _apiKEY = "e43509260e518431d4ebf809b0a4cd1f"; // Paste here your API Key
   static const _apiURL = "http://food2fork.com/api/search?key=" + _apiKEY;
 
   final JsonDecoder _decoder = new JsonDecoder();

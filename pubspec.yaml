@@ -1,5 +1,15 @@
 name: example_app_flutter
-description: A new flutter project.
+description: Flutter app example
+home: https://github.com/oscarcpozas/cooking-app-flutter
 dependencies:
   flutter:
     sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -5,13 +5,15 @@ class Recipe {
   final int recipeID;
   final String name;
   final String category;
+  final String imageURL;
 
-  const Recipe({this.recipeID, this.name, this.category});
+  const Recipe({this.recipeID, this.name, this.category, this.imageURL});
 
   Recipe.fromMap(Map<String, dynamic>  map) :
         recipeID = 2,
         name = "${map['title']}",
-        category = "${map['publisher']}";
+        category = "${map['publisher']}",
+        imageURL = "${map['image_url']}";
 
 }
 

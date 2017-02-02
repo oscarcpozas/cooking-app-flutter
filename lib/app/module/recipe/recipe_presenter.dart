@@ -1,5 +1,5 @@
-import 'package:example_app_flutter/data/recipe_data.dart';
-import 'package:example_app_flutter/injection/injector.dart';
+import 'package:example_app_flutter/app/data/recipe_data.dart';
+import 'package:example_app_flutter/app/injection/injector.dart';
 
 abstract class RecipeListViewContract {
   void onLoadRecipesComplete(List<Recipe> recipes);
