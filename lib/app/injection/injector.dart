@@ -1,6 +1,6 @@
-import 'package:example_app_flutter/app/data/recipe_data.dart';
-import 'package:example_app_flutter/app/data/recipe_data_impl.dart';
-import 'package:example_app_flutter/app/data/recipe_data_mock.dart';
+import 'package:exmaple_app_flutter/app/data/recipe_data.dart';
+import 'package:exmaple_app_flutter/app/data/recipe_data_impl.dart';
+import 'package:exmaple_app_flutter/app/data/recipe_data_mock.dart';
 
 enum Flavor {
   MOCK,

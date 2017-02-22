@@ -1,6 +1,6 @@
-import 'package:example_app_flutter/app/data/recipe_data.dart';
-import 'package:example_app_flutter/app/module/recipe/recipe_presenter.dart';
-import 'package:example_app_flutter/app/ui/items.dart';
+import 'package:exmaple_app_flutter/app/data/recipe_data.dart';
+import 'package:exmaple_app_flutter/app/module/recipe/recipe_presenter.dart';
+import 'package:exmaple_app_flutter/app/ui/items.dart';
 import 'package:flutter/material.dart';
 
 class RecipesScrollListView extends StatefulWidget {
@@ -22,8 +22,11 @@ class RecipesScrollListViewState extends State<RecipesScrollListView>
   bool _isLoading;
   bool _isError = false;
 
-  RecipesScrollListViewState() {
-    _presenter = new RecipeListPresenter(this);
+  ScaffoldState _parentView;
+
+  @override
+  void setPresenter(RecipeListPresenter presenter) {
+    _presenter = presenter;
   }
 
   @override
@@ -36,6 +39,8 @@ class RecipesScrollListViewState extends State<RecipesScrollListView>
   @override
   Widget build(BuildContext context) {
     Widget widget;
+
+    _parentView = Scaffold.of(context);
 
     if (_isLoading) {
       widget = new Center(
@@ -51,7 +56,7 @@ class RecipesScrollListViewState extends State<RecipesScrollListView>
           child: new Text("Error fetching server data")
         );
       } else {
-        widget = new ScrollableList(
+        widget = new ListView(
             itemExtent: _kHeightItem,
             children: _buildRecipesWidgetList()
         );
@@ -81,7 +86,7 @@ class RecipesScrollListViewState extends State<RecipesScrollListView>
   List<Widget> _buildRecipesWidgetList() {
     List<Widget> list = new List<Widget>();
 
-    _recipes.forEach((recipe) => list.add(new RecipeItem(recipe)));
+    _recipes.forEach((recipe) => list.add(new RecipeItem(recipe, _parentView)));
     return list;
   }
 

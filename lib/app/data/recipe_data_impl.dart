@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:exmaple_app_flutter/app/data/recipe_data.dart';
 import 'package:flutter/http.dart' as http;
-import 'package:example_app_flutter/app/data/recipe_data.dart';
 
 class RemoteRecipeRepository implements RecipeRepository {
 

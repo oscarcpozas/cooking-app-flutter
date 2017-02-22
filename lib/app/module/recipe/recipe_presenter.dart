@@ -1,20 +1,27 @@
-import 'package:example_app_flutter/app/data/recipe_data.dart';
-import 'package:example_app_flutter/app/injection/injector.dart';
+import 'package:exmaple_app_flutter/app/data/recipe_data.dart';
+import 'package:exmaple_app_flutter/app/injection/injector.dart';
 
 abstract class RecipeListViewContract {
+  void setPresenter(RecipeListPresenter presenter);
   void onLoadRecipesComplete(List<Recipe> recipes);
   void onLoadRecipesError();
 }
 
-class RecipeListPresenter {
+abstract class RecipeListPresenterContract {
+  void loadRecipes();
+}
+
+class RecipeListPresenter implements RecipeListPresenterContract {
 
   RecipeListViewContract _view;
   RecipeRepository _repository;
 
   RecipeListPresenter(this._view) {
-    _repository = new Injector().recipeRepository;
+    // ignore: static_access_to_instance_member
+    _repository = Injector.recipeRepository;
   }
 
+  @override
   void loadRecipes() {
     assert(_view != null); // Check that view is not null
 

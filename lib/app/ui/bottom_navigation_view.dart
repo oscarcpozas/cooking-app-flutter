@@ -36,6 +36,7 @@ class BottomNavigationState extends State<BottomNavigationView> {
       onTap: (int index) {
         setState(() {
           _currentIndex = index;
+
         });
       }
     );
