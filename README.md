@@ -1,5 +1,13 @@
 # Cooking Mama! (A Flutter app example)
 
+### How run the project
+
+You need Dart and Flutter installed in your system.
+
+```shell
+$ flutter run
+```
+
 License
 -------
 
