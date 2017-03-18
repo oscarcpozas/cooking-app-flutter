@@ -17,8 +17,8 @@ class RecipeListPresenter implements RecipeListPresenterContract {
   RecipeRepository _repository;
 
   RecipeListPresenter(this._view) {
-    // ignore: static_access_to_instance_member
-    _repository = Injector.recipeRepository;
+    _repository = new Injector().recipeRepository;
+    _view.setPresenter(this);
   }
 
   @override

@@ -1,17 +1,29 @@
 import 'package:flutter/material.dart';
 
+abstract class BottomNavigationStatus {
+
+  void onTapChangeIndex(int position);
+
+}
+
 class BottomNavigationView extends StatefulWidget {
 
+  BottomNavigationStatus listener;
+
+  BottomNavigationView(this.listener);
+
   @override
-  BottomNavigationState createState() => new BottomNavigationState();
+  BottomNavigationState createState() => new BottomNavigationState(listener);
 
 }
 
 class BottomNavigationState extends State<BottomNavigationView> {
 
+  BottomNavigationStatus _kTapListener;
   List<BottomNavigationBarItem> _kBottomNavigationItems;
-
   int _currentIndex = 0;
+
+  BottomNavigationState(this._kTapListener);
 
   @override
   void initState() {
@@ -36,7 +48,7 @@ class BottomNavigationState extends State<BottomNavigationView> {
       onTap: (int index) {
         setState(() {
           _currentIndex = index;
-
+          _kTapListener.onTapChangeIndex(index);
         });
       }
     );

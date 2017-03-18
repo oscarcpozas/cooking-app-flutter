@@ -6,7 +6,11 @@ import 'package:flutter/material.dart';
 class RecipesScrollListView extends StatefulWidget {
 
   @override
-  RecipesScrollListViewState createState() => new RecipesScrollListViewState();
+  RecipesScrollListViewState createState() {
+    RecipesScrollListViewState state = new RecipesScrollListViewState();
+    new RecipeListPresenter(state);
+    return state;
+  }
 
 }
 
