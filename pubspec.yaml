@@ -2,6 +2,7 @@ name: exmaple_app_flutter
 description: Cooking mama.
 
 dependencies:
+  http: '>=0.11.3+12'
   flutter:
     sdk: flutter
 
@@ -10,5 +11,4 @@ dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   uses-material-design: true

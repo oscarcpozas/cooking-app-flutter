@@ -14,8 +14,7 @@ class RecipeItem extends StatelessWidget {
       new SizedBox(
           width: 800.0, height: 200.0,
           child: new Image.network(
-              _recipe.imageURL,
-              fit: ImageFit.fitWidth
+              _recipe.imageURL
           )
       ),
       new Padding(
@@ -49,7 +48,7 @@ class RecipeItem extends StatelessWidget {
     return new Padding(
         padding: new EdgeInsets.all(10.0),
         child: new Card(
-            elevation: 3,
+            elevation: 3.0,
             child: new Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
