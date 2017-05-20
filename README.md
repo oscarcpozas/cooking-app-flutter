@@ -1,4 +1,22 @@
-# Cooking Mama! (A Flutter app example)
+<p align="center">
+    <img src="art/pixel.png" width="300px">
+</p>
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/made%20with-love-E760A4.svg" alt="Made with love">
+  </a>
+  <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">
+    <img src="https://img.shields.io/hexpm/l/plug.svg" alt="License">
+  </a>
+</p>
+
+<p align="center">
+Cooking Mama! (A Flutter app example for kitchens)
+</p>
+
+-------
+
 
 ### How run the project
 
@@ -11,6 +29,7 @@ $ flutter run
 License
 -------
 
+```
 Copyright 2017 Oscar Caballero Pozas
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,3 +43,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
