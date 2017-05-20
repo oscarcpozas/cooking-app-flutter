@@ -1,6 +1,7 @@
 # Cooking Mama! (A Flutter app example)
 
-### How run the project
+
+### How run the project
 
 You need Dart and Flutter installed in your system.
 
