@@ -17,6 +17,7 @@ Cooking Mama! (A Flutter app example for kitchens)
 
 -------
 
+More documentation coming soon...
 
 ### How run the project
 
