@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="art/pixel.png" width="200px">
-    <img src="art/iphone.png" width="400px">
+    <img src="art/pixel.png" height="375px">
+    <img src="art/iphone.png" height="400px">
 </p>
 
 <p align="center">
