@@ -12,7 +12,6 @@ class CookingApp extends StatefulWidget {
 
   @override
   CookingAppState createState() => new CookingAppState();
-
 }
 
 class CookingAppState extends State<CookingApp> implements BottomNavigationStatus {
@@ -57,6 +56,5 @@ class CookingAppState extends State<CookingApp> implements BottomNavigationStatu
       }
     });
   }
-
 }
 

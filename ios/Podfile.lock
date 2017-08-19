@@ -1,0 +1,94 @@
+PODS:
+  - Firebase/Auth (3.15.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.15.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.2)
+  - firebase_auth (0.0.1):
+    - Firebase/Auth
+    - Firebase/Core
+    - FirebaseUI/Auth (~> 3.0)
+    - FirebaseUI/Google
+    - Flutter
+    - Google/SignIn
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseUI/Auth (3.1.1):
+    - Firebase/Auth
+  - FirebaseUI/Google (3.1.1):
+    - FirebaseUI/Auth
+    - GoogleSignIn (~> 4.0)
+  - Flutter (1.0.0)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - google_sign_in (0.0.1):
+    - Flutter
+    - Google/SignIn (~> 3.0)
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+
+DEPENDENCIES:
+  - firebase_auth (from `/Users/ninja/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.0.2+1/ios`)
+  - Flutter (from `/Users/ninja/flutter/bin/cache/artifacts/engine/ios`)
+  - google_sign_in (from `/Users/ninja/.pub-cache/hosted/pub.dartlang.org/google_sign_in-0.0.2/ios`)
+
+EXTERNAL SOURCES:
+  firebase_auth:
+    :path: /Users/ninja/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.0.2+1/ios
+  Flutter:
+    :path: /Users/ninja/flutter/bin/cache/artifacts/engine/ios
+  google_sign_in:
+    :path: /Users/ninja/.pub-cache/hosted/pub.dartlang.org/google_sign_in-0.0.2/ios
+
+SPEC CHECKSUMS:
+  Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
+  firebase_auth: bc8727f162f8af67ae665f9c533ef546a8f789de
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseUI: 6e99ff95e369f5858232e4f65bff215458fe8469
+  Flutter: d674e78c937094a75ac71dd77e921e840bea3dbf
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  google_sign_in: a50a9d1858d1532f0136eae5333d50881e481947
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+
+PODFILE CHECKSUM: 9726cfc9b4cc3fdf8f06d9bc5099ce52519a6489
+
+COCOAPODS: 1.2.0
