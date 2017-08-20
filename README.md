@@ -22,7 +22,7 @@ This project a simple example about potential of Dart + Flutter for create mobil
 
 ### How run the project
 
-    *mportant*: For the following code to run on Android, you'll need the latest version of the
+    **Important**: For the following code to run on Android, you'll need the latest version of the
     Google Play services APK installed on your Android testing device.
 
 You need lastest version of Flutter installed in your system for build and run the project.
