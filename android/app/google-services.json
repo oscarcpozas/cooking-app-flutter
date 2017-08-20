@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341555215043",
+    "firebase_url": "https://cooking-mama-1986f.firebaseio.com",
+    "project_id": "cooking-mama-1986f",
+    "storage_bucket": "cooking-mama-1986f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341555215043:android:9f10d1b93a1cc276",
+        "android_client_info": {
+          "package_name": "com.github.oscarcpozas.cooking.mama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341555215043-snjntb07kfbgafphiehc00g9pv7g47rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKyivbhD2HqtJBdYS9iM1uUGyw76z6Jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

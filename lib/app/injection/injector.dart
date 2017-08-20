@@ -4,7 +4,8 @@ import 'package:exmaple_app_flutter/app/data/recipe_data_mock.dart';
 
 enum Flavor {
   MOCK,
-  PROD
+  PROD,
+  DEBUG
 }
 
 class Injector {

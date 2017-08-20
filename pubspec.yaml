@@ -1,12 +1,16 @@
 name: exmaple_app_flutter
-description: Cooking mama.
+description: Cooking mama
 
 dependencies:
-  http: '>=0.11.3+12'
   flutter:
     sdk: flutter
-  firebase_auth:
-  google_sign_in:
+  http: '>=0.11.3+12'
+  image_picker: 0.1.1
+  google_sign_in: 0.3.1
+  firebase_analytics: 0.0.4
+  firebase_auth: 0.1.1
+  firebase_database: 0.0.12
+  firebase_storage: 0.0.5
 
 flutter:
   uses-material-design: true

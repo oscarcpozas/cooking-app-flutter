@@ -20,6 +20,9 @@ Cooking Mama! (A Flutter app example for kitchens)
 
 More documentation coming soon...
 
+    Important: For the following code to run on Android, you'll need the latest version of the
+    Google Play services APK installed on your Android testing device.
+
 ### How run the project
 
 You need Dart and Flutter installed in your system.

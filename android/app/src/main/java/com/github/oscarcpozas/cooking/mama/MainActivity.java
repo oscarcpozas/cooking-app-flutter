@@ -1,4 +1,4 @@
-package com.yourcompany.app;
+package com.github.oscarcpozas.cooking.mama;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
@@ -9,4 +9,3 @@ public class MainActivity extends FlutterActivity {
         super.onCreate(savedInstanceState);
     }
 }
-
