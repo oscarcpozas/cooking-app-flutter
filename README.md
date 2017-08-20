@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="art/pixel.png" width="300px">
-    <img src="art/iphone.png" width="600px">
+    <img src="art/pixel.png" height="403px">
+    <img src="art/iphone.png" height="400px">
 </p>
 
 <p align="center">
@@ -18,14 +18,14 @@ Cooking Mama! (A Flutter app example for kitchens)
 
 -------
 
-More documentation coming soon...
+This project a simple example about potential of Dart + Flutter for create mobile apps cross-platform with one code.
 
-    Important: For the following code to run on Android, you'll need the latest version of the
+### How run the project
+
+    *mportant*: For the following code to run on Android, you'll need the latest version of the
     Google Play services APK installed on your Android testing device.
 
-### How run the project
-
-You need Dart and Flutter installed in your system.
+You need lastest version of Flutter installed in your system for build and run the project.
 
 ```shell
 $ flutter run
