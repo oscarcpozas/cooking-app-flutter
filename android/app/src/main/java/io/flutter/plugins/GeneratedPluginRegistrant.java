@@ -13,11 +13,17 @@ import io.flutter.plugins.imagepicker.ImagePickerPlugin;
  */
 public final class GeneratedPluginRegistrant {
   public static void registerWith(PluginRegistry registry) {
-    FirebaseAnalyticsPlugin.registerWith(registry.registrarFor("io.flutter.firebaseanalytics.FirebaseAnalyticsPlugin"));
-    FirebaseAuthPlugin.registerWith(registry.registrarFor("io.flutter.firebaseauth.FirebaseAuthPlugin"));
-    FirebaseDatabasePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.database.FirebaseDatabasePlugin"));
-    FirebaseStoragePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.storage.FirebaseStoragePlugin"));
-    GoogleSignInPlugin.registerWith(registry.registrarFor("io.flutter.plugins.googlesignin.GoogleSignInPlugin"));
-    ImagePickerPlugin.registerWith(registry.registrarFor("io.flutter.plugins.imagepicker.ImagePickerPlugin"));
+    if (alreadyRegisteredWith(registry)) {
+      return;
+    }
+  }
+
+  private static boolean alreadyRegisteredWith(PluginRegistry registry) {
+    final String key = GeneratedPluginRegistrant.class.getCanonicalName();
+    if (registry.hasPlugin(key)) {
+      return true;
+    }
+    registry.registrarFor(key);
+    return false;
   }
 }

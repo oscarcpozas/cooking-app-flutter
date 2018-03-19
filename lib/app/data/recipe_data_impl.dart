@@ -19,7 +19,7 @@ class RemoteRecipeRepository implements RecipeRepository {
     final statusCode = response.statusCode;
 
     if(statusCode < 200 || statusCode >= 300 || jsonBody == null) {
-      throw new FetchDataException("Error while getting contacts [StatusCode:$statusCode, Error:${response}]");
+      throw new FetchDataException("Error while getting contacts [StatusCode:$statusCode, Error:$response]");
     }
 
     final recipesContainer = _decoder.convert(jsonBody);
